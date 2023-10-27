@@ -1,0 +1,30 @@
+.my-profile {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(144, 198, 245);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  .my-profile h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .my-profile img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(201, 54, 251);
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .my-profile p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .my-profile img:hover {
+    transform: scale(1.05);
+  }
+  
